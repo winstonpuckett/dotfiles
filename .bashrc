@@ -123,6 +123,7 @@ alias code='~/Applications/VSCode-linux-x64/code'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias ssh='kitten ssh'
 
 PS1='\n\w\n❯ '
 
@@ -131,4 +132,4 @@ VISUAL='helix'
 
 . "$HOME/.cargo/env"
 
-PATH=$PATH:$HOME/go/bin
+PATH=$PATH:$HOME/go/bin:$HOME/Applications/VSCode-linux-x64
