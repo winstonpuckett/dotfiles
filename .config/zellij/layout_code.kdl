@@ -1,0 +1,13 @@
+layout {
+   pane split_direction="Vertical" {
+        pane size="20%" {
+            borderless true
+            plugin location="zellij:strider"
+        }
+        pane {
+            borderless true
+            command "helix"
+            args "."
+        }
+    }
+}
