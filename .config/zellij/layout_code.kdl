@@ -9,5 +9,8 @@ layout {
             command "helix"
             args "."
         }
+        pane size="25%" {
+            borderless true
+        }
     }
 }

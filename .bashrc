@@ -124,6 +124,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ssh='kitten ssh'
+alias zc='zellij --layout ~/.config/zellij/layout_code.kdl'
 
 PS1='\n\w\n❯ '
 
