@@ -118,13 +118,13 @@ alias gfs='git fetch && git status'
 alias gac='git add -u && git commit'
 alias gaa='git add -u && git commit --amend'
 alias hx='helix' # Some reason this is wonky :D
-alias z='zellij'
 alias code='~/Applications/VSCode-linux-x64/code'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ssh='kitten ssh'
 alias zc='zellij --layout ~/.config/zellij/layout_code.kdl'
+alias zt='zellij --layout ~/.config/zellij/layout_term_borders.kdl'
 
 PS1='\n\w\n❯ '
 

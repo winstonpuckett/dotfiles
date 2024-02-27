@@ -277,7 +277,6 @@ theme "catppuccin-frappe"
 // Default: "default"
 //
 // default_layout "compact"
-default_layout "layout_code.kdl"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
