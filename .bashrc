@@ -123,5 +123,5 @@ alias ....='cd ../../..'
 alias zc='zellij --layout ~/.config/zellij/layout_code.kdl'
 alias zt='zellij --layout ~/.config/zellij/layout_term_borders.kdl'
 
-PS1='\n\w\n❯ '
+PS1='\n\h \w\n❯ '
 
